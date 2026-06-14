@@ -1,0 +1,611 @@
+@prefix region: <https://dataout.org/rdf/reference/ru_regions#> .
+@prefix schema: <http://schema.org/> .
+
+region:RU a schema:Country ;
+	schema:name "Russia"@en, "Россия"@ru ;
+	schema:alternateName "RU"@en ;
+	schema:sameAs <https://sws.geonames.org/2017370/> .
+
+region:UA a schema:Country ;
+	schema:name "Ukraine"@en, "Украина"@ru ;
+	schema:alternateName "UA"@en ;
+	schema:sameAs <https://sws.geonames.org/690791/> .
+
+region:01 a schema:AdministrativeArea ;
+	schema:identifier "01" ;
+	schema:name "Adygeya Republic"@en, "Республика Адыгея"@ru ;
+	schema:alternateName "AD"@en, "АДЫ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/584222/> .
+
+region:02 a schema:AdministrativeArea ;
+	schema:identifier "02" ;
+	schema:name "Bashkortostan Republic"@en, "Республика Башкортостан"@ru ;
+	schema:alternateName "BA"@en, "БАШ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/578853/> .
+
+region:03 a schema:AdministrativeArea ;
+	schema:identifier "03" ;
+	schema:name "Buryatia Republic"@en, "Республика Бурятия"@ru ;
+	schema:alternateName "BU"@en, "БУР"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/2050915/> .
+
+region:04 a schema:AdministrativeArea ;
+	schema:identifier "04" ;
+	schema:name "Altai Republic"@en, "Республика Алтай"@ru ;
+	schema:alternateName "AL"@en, "АЛР"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1506272/> .
+
+region:05 a schema:AdministrativeArea ;
+	schema:identifier "05" ;
+	schema:name "Daghestan Republic"@en, "Республика Дагестан"@ru ;
+	schema:alternateName "DA"@en, "ДАГ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/567293/> .
+
+region:06 a schema:AdministrativeArea ;
+	schema:identifier "06" ;
+	schema:name "Ingushetia Republic"@en, "Республика Ингушетия"@ru ;
+	schema:alternateName "IN"@en, "ИНГ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/556349/> .
+
+region:07 a schema:AdministrativeArea ;
+	schema:identifier "07" ;
+	schema:name "Kabardino-Balkaria Republic"@en, "Кабардино-Балкарская Республика"@ru ;
+	schema:alternateName "KB"@en, "КАБ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/554667/> .
+
+region:08 a schema:AdministrativeArea ;
+	schema:identifier "08" ;
+	schema:name "Kalmykia Republic"@en, "Республика Калмыкия"@ru ;
+	schema:alternateName "KL"@en, "КАИ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/553972/> .
+
+region:09 a schema:AdministrativeArea ;
+	schema:identifier "09" ;
+	schema:name "Karachayevo-Cherkessia"@en, "Карачаево-Черкесская Республика"@ru ;
+	schema:alternateName "KC"@en, "КАО"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/552927/> .
+
+region:10 a schema:AdministrativeArea ;
+	schema:identifier "10" ;
+	schema:name "Karelia Republic"@en, "Республика Карелия"@ru ;
+	schema:alternateName "KR"@en, "КАР"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/552548/> .
+
+region:11 a schema:AdministrativeArea ;
+	schema:identifier "11" ;
+	schema:name "Komi Republic"@en, "Республика Коми"@ru ;
+	schema:alternateName "KO"@en, "КОМ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/545854/> .
+
+region:12 a schema:AdministrativeArea ;
+	schema:identifier "12" ;
+	schema:name "Marij El Republic"@en, "Республика Марий Эл"@ru ;
+	schema:alternateName "ME"@en, "МАР"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/529352/> .
+
+region:13 a schema:AdministrativeArea ;
+	schema:identifier "13" ;
+	schema:name "Mordovia Republic"@en, "Республика Мордовия"@ru ;
+	schema:alternateName "MO"@en, "МОР"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/525369/> .
+
+region:14 a schema:AdministrativeArea ;
+	schema:identifier "14" ;
+	schema:name "Sakha (Yakutia) Republic"@en, "Республика Саха (Якутия)"@ru ;
+	schema:alternateName "SA"@en, "ЯКУ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/2013162/> .
+
+region:15 a schema:AdministrativeArea ;
+	schema:identifier "15" ;
+	schema:name "North Ossetia–Alania Republic"@en, "Республика Северная Осетия–Алания"@ru ;
+	schema:alternateName "SE"@en, "СЕВ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/519969/> .
+
+region:16 a schema:AdministrativeArea ;
+	schema:identifier "16" ;
+	schema:name "Tatarstan Republic"@en, "Республика Татарстан"@ru ;
+	schema:alternateName "TA"@en, "ТАТ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/484048/> .
+
+region:17 a schema:AdministrativeArea ;
+	schema:identifier "17" ;
+	schema:name "Tyva Republic"@en, "Республика Тыва"@ru ;
+	schema:alternateName "TY"@en, "ТУВ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1488873/> .
+
+region:18 a schema:AdministrativeArea ;
+	schema:identifier "18" ;
+	schema:name "Udmurt Republic"@en, "Удмуртская Республика"@ru ;
+	schema:alternateName "UD"@en, "УДМ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/479613/> .
+
+region:19 a schema:AdministrativeArea ;
+	schema:identifier "19" ;
+	schema:name "Khakassia Republic"@en, "Республика Хакасия"@ru ;
+	schema:alternateName "KK"@en, "ХАК"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1503834/> .
+
+region:20 a schema:AdministrativeArea ;
+	schema:identifier "20" ;
+	schema:name "Chechen Republic"@en, "Чеченская Республика"@ru ;
+	schema:alternateName "CE"@en, "ЧЕЧ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/569665/> .
+
+region:21 a schema:AdministrativeArea ;
+	schema:identifier "21" ;
+	schema:name "Chuvashia Republic"@en, "Чувашская Республика"@ru ;
+	schema:alternateName "CU"@en, "ЧУВ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/567395/> .
+
+region:22 a schema:AdministrativeArea ;
+	schema:identifier "22" ;
+	schema:name "Altai krai"@en, "Алтайский край"@ru ;
+	schema:alternateName "ALT"@en, "АЛТ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1511732/> .
+
+region:23 a schema:AdministrativeArea ;
+	schema:identifier "23" ;
+	schema:name "Krasnodar krai"@en, "Краснодарский край"@ru ;
+	schema:alternateName "KDA"@en, "КРА"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/542415/> .
+
+region:24 a schema:AdministrativeArea ;
+	schema:identifier "24" ;
+	schema:name "Krasnoyarsk krai"@en, "Красноярский край"@ru ;
+	schema:alternateName "KYA"@en, "КРН"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1502020/> .
+
+region:25 a schema:AdministrativeArea ;
+	schema:identifier "25" ;
+	schema:name "Primorsky krai"@en, "Приморский край"@ru ;
+	schema:alternateName "PRI"@en, "ПРИ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/2017623/> .
+
+region:26 a schema:AdministrativeArea ;
+	schema:identifier "26" ;
+	schema:name "Stavropol krai"@en, "Ставропольский край"@ru ;
+	schema:alternateName "STA"@en, "СТА"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/487839/> .
+
+region:27 a schema:AdministrativeArea ;
+	schema:identifier "27" ;
+	schema:name "Khabarovsk krai"@en, "Хабаровский край"@ru ;
+	schema:alternateName "KHA"@en, "ХАБ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/2022888/> .
+
+region:28 a schema:AdministrativeArea ;
+	schema:identifier "28" ;
+	schema:name "Amur oblast"@en, "Амурская область"@ru ;
+	schema:alternateName "AMU"@en, "АМУ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/2027748/> .
+
+region:29 a schema:AdministrativeArea ;
+	schema:identifier "29" ;
+	schema:name "Arkhangelsk oblast"@en, "Архангельская область"@ru ;
+	schema:alternateName "ARK"@en, "АРХ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/581043/> .
+
+region:30 a schema:AdministrativeArea ;
+	schema:identifier "30" ;
+	schema:name "Astrakhan oblast"@en, "Астраханская область"@ru ;
+	schema:alternateName "AST"@en, "АСТ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/580491/> .
+
+region:31 a schema:AdministrativeArea ;
+	schema:identifier "31" ;
+	schema:name "Belgorod oblast"@en, "Белгородская область"@ru ;
+	schema:alternateName "BEL"@en, "БЕЛ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/578071/> .
+
+region:32 a schema:AdministrativeArea ;
+	schema:identifier "32" ;
+	schema:name "Bryansk oblast"@en, "Брянская область"@ru ;
+	schema:alternateName "BRY"@en, "БРЯ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/571473/> .
+
+region:33 a schema:AdministrativeArea ;
+	schema:identifier "33" ;
+	schema:name "Vladimir oblast"@en, "Владимирская область"@ru ;
+	schema:alternateName "VLA"@en, "ВЛА"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/826294/> .
+
+region:34 a schema:AdministrativeArea ;
+	schema:identifier "34" ;
+	schema:name "Volgograd oblast"@en, "Волгоградская область"@ru ;
+	schema:alternateName "VGG"@en, "ВОГ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/472755/> .
+
+region:35 a schema:AdministrativeArea ;
+	schema:identifier "35" ;
+	schema:name "Vologda oblast"@en, "Вологодская область"@ru ;
+	schema:alternateName "VLG"@en, "ВОЛ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/472755/> .
+
+region:36 a schema:AdministrativeArea ;
+	schema:identifier "36" ;
+	schema:name "Voronezh oblast"@en, "Воронежская область"@ru ;
+	schema:alternateName "VOR"@en, "ВОР"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/472039/> .
+
+region:37 a schema:AdministrativeArea ;
+	schema:identifier "37" ;
+	schema:name "Ivanovo oblast"@en, "Ивановская область"@ru ;
+	schema:alternateName "IVA"@en, "ИВА"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/555235/> .
+
+region:38 a schema:AdministrativeArea ;
+	schema:identifier "38" ;
+	schema:name "Irkutsk oblast"@en, "Иркутская область"@ru ;
+	schema:alternateName "IRK"@en, "ИРК"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/2023468/> .
+
+region:39 a schema:AdministrativeArea ;
+	schema:identifier "39" ;
+	schema:name "Kaliningrad oblast"@en, "Калининградская область"@ru ;
+	schema:alternateName "KGD"@en, "КАГ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/554230/> .
+
+region:40 a schema:AdministrativeArea ;
+	schema:identifier "40" ;
+	schema:name "Kaluga oblast"@en, "Калужская область"@ru ;
+	schema:alternateName "KLU"@en, "КАЛ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/553899/> .
+
+region:41 a schema:AdministrativeArea ;
+	schema:identifier "41" ;
+	schema:name "Kamchatka krai"@en, "Камчатский край"@ru ;
+	schema:alternateName "KAM"@en, "КАМ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/2125072/> .
+
+region:42 a schema:AdministrativeArea ;
+	schema:identifier "42" ;
+	schema:name "Kemerovo oblast"@en, "Кемеровская область"@ru ;
+	schema:alternateName "KEM"@en, "КЕМ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1503900/> .
+
+region:43 a schema:AdministrativeArea ;
+	schema:identifier "43" ;
+	schema:name "Kirov oblast"@en, "Кировская область"@ru ;
+	schema:alternateName "KIR"@en, "КИР"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/548389/> .
+
+region:44 a schema:AdministrativeArea ;
+	schema:identifier "44" ;
+	schema:name "Kostroma oblast"@en, "Костромская область"@ru ;
+	schema:alternateName "KOS"@en, "КОС"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/543871/> .
+
+region:45 a schema:AdministrativeArea ;
+	schema:identifier "45" ;
+	schema:name "Kurgan oblast"@en, "Курганская область"@ru ;
+	schema:alternateName "KGN"@en, "КУР"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1501312/> .
+
+region:46 a schema:AdministrativeArea ;
+	schema:identifier "46" ;
+	schema:name "Kursk oblast"@en, "Курская область"@ru ;
+	schema:alternateName "KRS"@en, "КУС"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/538555/> .
+
+region:47 a schema:AdministrativeArea ;
+	schema:identifier "47" ;
+	schema:name "Leningrad oblast"@en, "Ленинградская область"@ru ;
+	schema:alternateName "LEN"@en, "ЛЕН"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/536199/> .
+
+region:48 a schema:AdministrativeArea ;
+	schema:identifier "48" ;
+	schema:name "Lipetsk oblast"@en, "Липецкая область"@ru ;
+	schema:alternateName "LIP"@en, "ЛИП"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/535120/> .
+
+region:49 a schema:AdministrativeArea ;
+	schema:identifier "49" ;
+	schema:name "Magadan oblast"@en, "Магаданская область"@ru ;
+	schema:alternateName "MAG"@en, "МАГ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/2123627/> .
+
+region:50 a schema:AdministrativeArea ;
+	schema:identifier "50" ;
+	schema:name "Moscow oblast"@en, "Московская область"@ru ;
+	schema:alternateName "MOS"@en, "МОЯ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/524925/> .
+
+region:51 a schema:AdministrativeArea ;
+	schema:identifier "51" ;
+	schema:name "Murmansk oblast"@en, "Мурманская область"@ru ;
+	schema:alternateName "MUR"@en, "МУР"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/524304/> .
+
+region:52 a schema:AdministrativeArea ;
+	schema:identifier "52" ;
+	schema:name "Nizhni Novgorod oblast"@en, "Нижегородская область"@ru ;
+	schema:alternateName "NIZ"@en, "НИЖ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/559838/> .
+
+region:53 a schema:AdministrativeArea ;
+	schema:identifier "53" ;
+	schema:name "Novgorod oblast"@en, "Новгородская область"@ru ;
+	schema:alternateName "NGR"@en, "НОВ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/519324/> .
+
+region:54 a schema:AdministrativeArea ;
+	schema:identifier "54" ;
+	schema:name "Novosibirsk oblast"@en, "Новосибирская область"@ru ;
+	schema:alternateName "NVS"@en, "НОС"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1496745/> .
+
+region:55 a schema:AdministrativeArea ;
+	schema:identifier "55" ;
+	schema:name "Omsk oblast"@en, "Омская область"@ru ;
+	schema:alternateName "OMS"@en, "ОМС"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1496152/> .
+
+region:56 a schema:AdministrativeArea ;
+	schema:identifier "56" ;
+	schema:name "Orenburg oblast"@en, "Оренбургская область"@ru ;
+	schema:alternateName "ORE"@en, "ОРЕ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/515001/> .
+
+region:57 a schema:AdministrativeArea ;
+	schema:identifier "57" ;
+	schema:name "Oryol oblast"@en, "Орловская область"@ru ;
+	schema:alternateName "ORL"@en, "ОРЛ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/514801/> .
+
+region:58 a schema:AdministrativeArea ;
+	schema:identifier "58" ;
+	schema:name "Penza oblast"@en, "Пензенская область"@ru ;
+	schema:alternateName "PNZ"@en, "ПЕН"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/511555/> .
+
+region:59 a schema:AdministrativeArea ;
+	schema:identifier "59" ;
+	schema:name "Perm oblast"@en, "Пермский край"@ru ;
+	schema:alternateName "PER"@en, "ПЕР"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/511180/> .
+
+region:60 a schema:AdministrativeArea ;
+	schema:identifier "60" ;
+	schema:name "Pskov oblast"@en, "Псковская область"@ru ;
+	schema:alternateName "PSK"@en, "ПСК"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/504338/> .
+
+region:61 a schema:AdministrativeArea ;
+	schema:identifier "61" ;
+	schema:name "Rostov oblast"@en, "Ростовская область"@ru ;
+	schema:alternateName "ROS"@en, "РОС"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/501165/> .
+
+region:62 a schema:AdministrativeArea ;
+	schema:identifier "62" ;
+	schema:name "Ryazan oblast"@en, "Рязанская область"@ru ;
+	schema:alternateName "RYA"@en, "РЯЗ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/500059/> .
+
+region:63 a schema:AdministrativeArea ;
+	schema:identifier "63" ;
+	schema:name "Samara oblast"@en, "Самарская область"@ru ;
+	schema:alternateName "SAM"@en, "САМ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/499068/> .
+
+region:64 a schema:AdministrativeArea ;
+	schema:identifier "64" ;
+	schema:name "Saratov oblast"@en, "Саратовская область"@ru ;
+	schema:alternateName "SAR"@en, "САР"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/498671/> .
+
+region:65 a schema:AdministrativeArea ;
+	schema:identifier "65" ;
+	schema:name "Sakhalin oblast"@en, "Сахалинская область"@ru ;
+	schema:alternateName "SAK"@en, "САХ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/2121529/> .
+
+region:66 a schema:AdministrativeArea ;
+	schema:identifier "66" ;
+	schema:name "Sverdlovsk oblast"@en, "Свердловская область"@ru ;
+	schema:alternateName "SVE"@en, "СВЕ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1490542/> .
+
+region:67 a schema:AdministrativeArea ;
+	schema:identifier "67" ;
+	schema:name "Smolensk oblast"@en, "Смоленская область"@ru ;
+	schema:alternateName "SMO"@en, "СМО"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/491684/> .
+
+region:68 a schema:AdministrativeArea ;
+	schema:identifier "68" ;
+	schema:name "Tambov oblast"@en, "Тамбовская область"@ru ;
+	schema:alternateName "TAM"@en, "ТАМ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/484638/> .
+
+region:69 a schema:AdministrativeArea ;
+	schema:identifier "69" ;
+	schema:name "Tver oblast"@en, "Тверская область"@ru ;
+	schema:alternateName "TVE"@en, "ТВЕ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/480041/> .
+
+region:70 a schema:AdministrativeArea ;
+	schema:identifier "70" ;
+	schema:name "Tomsk oblast"@en, "Томская область"@ru ;
+	schema:alternateName "TOM"@en, "ТОМ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1489421/> .
+
+region:71 a schema:AdministrativeArea ;
+	schema:identifier "71" ;
+	schema:name "Tula oblast"@en, "Тульская область"@ru ;
+	schema:alternateName "TUL"@en, "ТУЛ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/480508/> .
+
+region:72 a schema:AdministrativeArea ;
+	schema:identifier "72" ;
+	schema:name "Tyumen oblast"@en, "Тюменская область"@ru ;
+	schema:alternateName "TYU"@en, "ТЮМ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1488747/> .
+
+region:73 a schema:AdministrativeArea ;
+	schema:identifier "73" ;
+	schema:name "Ulyanovsk oblast"@en, "Ульяновская область"@ru ;
+	schema:alternateName "ULY"@en, "УЛЬ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/479119/> .
+
+region:74 a schema:AdministrativeArea ;
+	schema:identifier "74" ;
+	schema:name "Chelyabinsk oblast"@en, "Челябинская область"@ru ;
+	schema:alternateName "CHE"@en, "ЧЕЛ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1508290/> .
+
+region:75 a schema:AdministrativeArea ;
+	schema:identifier "75" ;
+	schema:name "Zabaykalsky krai"@en, "Забайкальский край"@ru ;
+	schema:alternateName "ZAB"@en, "ЗАБ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/7779061/> .
+
+region:76 a schema:AdministrativeArea ;
+	schema:identifier "76" ;
+	schema:name "Yaroslavl oblast"@en, "Ярославская область"@ru ;
+	schema:alternateName "YAR"@en, "ЯРО"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/468898/> .
+
+region:77 a schema:AdministrativeArea ;
+	schema:identifier "77" ;
+	schema:name "Moscow"@en, "Москва"@ru ;
+	schema:alternateName "MOW"@en, "МОС"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/524894/> .
+
+region:78 a schema:AdministrativeArea ;
+	schema:identifier "78" ;
+	schema:name "Saint-Petersburg"@en, "Санкт-Петербург"@ru ;
+	schema:alternateName "SPE"@en, "СПБ"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/536203/> .
+
+region:79 a schema:AdministrativeArea ;
+	schema:identifier "79" ;
+	schema:name "Jewish autonomous oblast"@en, "Еврейская автономная область"@ru ;
+	schema:alternateName "YEV"@en, "ЕВР"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/2026639/> .
+
+region:83 a schema:AdministrativeArea ;
+	schema:identifier "83" ;
+	schema:name "Nenets autonomous okrug"@en, "Ненецкий автономный округ"@ru ;
+	schema:alternateName "NEN"@en, "НЕН"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/522652/> .
+
+region:86 a schema:AdministrativeArea ;
+	schema:identifier "86" ;
+	schema:name "Khanty-Mansijsk autonomous okrug"@en, "Ханты-Мансийский автономный округ"@ru ;
+	schema:alternateName "KHM"@en, "ХАН"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1503773/> .
+
+region:87 a schema:AdministrativeArea ;
+	schema:identifier "87" ;
+	schema:name "Chukotka autonomous okrug"@en, "Чукотский автономный округ"@ru ;
+	schema:alternateName "CHU"@en, "ЧУК"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/2126099/> .
+
+region:89 a schema:AdministrativeArea ;
+	schema:identifier "89" ;
+	schema:name "Yamalo-Nenets autonomous okrug"@en, "Ямало-Ненецкий автономный округ"@ru ;
+	schema:alternateName "YAN"@en, "ЯМА"@ru ;
+	schema:containedInPlace region:RU ;
+	schema:sameAs <https://sws.geonames.org/1486462/> .
+
+region:UA_region_001 a schema:AdministrativeArea ;
+	schema:identifier "91" ;
+	schema:name "Crimea (occupied by Russia)"@en, "Крым (оккупирован Россией)"@ru ;
+	schema:alternateName "CRIMEA"@en, "КРЫМ"@ru ;
+	schema:containedInPlace region:UA ;
+	schema:sameAs <https://sws.geonames.org/703883/> .
+
+region:UA_region_002 a schema:AdministrativeArea ;
+	schema:identifier "92" ;
+	schema:name "Sevastopol (occupied by Russia)"@en, "Севастополь (оккупирован Россией)"@ru ;
+	schema:alternateName "SEV"@en, "СВС"@ru ;
+	schema:containedInPlace region:UA ;
+	schema:sameAs <https://sws.geonames.org/694422/> .
+
+region:95 a schema:AdministrativeArea ;
+	schema:identifier "95" ;
+	schema:name "Territories outside the Russian Federation"@en, "Территории за пределами РФ"@ru .

@@ -1,0 +1,54 @@
+@prefix law: <https://dataout.org/rdf/reference/ru_law#> .
+@prefix dataout: <https://dataout.org/ontology#> .
+@prefix region: <https://dataout.org/rdf/reference/ru_regions#> .
+@prefix schema: <https://schema.org/> .
+
+law:CAORF a schema:Legislation ;
+    schema:legislationType dataout:administrativeCode ;
+    schema:name "Code of Administrative Offences of the Russian Federation"@en, "Кодекс Российской Федерации об административных правонарушениях"@ru ;
+    schema:jurisdiction region:RU ;
+    schema:hasPart law:article_6_21 , law:article_6_21_2 .
+
+law:article_6_21 a schema:Legislation ;
+    schema:isPartOf law:CAORF ;
+    schema:name "Article 6.21"@en .
+
+law:article_6_21_2 a schema:Legislation ;
+    schema:isPartOf law:CAORF ;
+    schema:name "Article 6.21.2"@en .
+
+law:article_6_21_part_1 a schema:Legislation ;
+    schema:isPartOf law:article_6_21 ;
+    schema:name "Article 6.21 part 1"@en .
+
+law:article_6_21_part_2 a schema:Legislation ;
+    schema:isPartOf law:article_6_21 ;
+    schema:name "Article 6.21 part 2"@en .
+
+law:article_6_21_part_3 a schema:Legislation ;
+    schema:isPartOf law:article_6_21 ;
+    schema:name "Article 6.21 part 3"@en .
+
+law:article_6_21_part_4 a schema:Legislation ;
+    schema:isPartOf law:article_6_21 ;
+    schema:name "Article 6.21 part 4"@en .
+
+law:article_6_21_part_5 a schema:Legislation ;
+    schema:isPartOf law:article_6_21 ;
+    schema:name "Article 6.21 part 5"@en .
+
+law:article_6_21_part_6 a schema:Legislation ;
+    schema:isPartOf law:article_6_21 ;
+    schema:name "Article 6.21 part 6"@en .
+
+law:article_6_21_part_7 a schema:Legislation ;
+    schema:isPartOf law:article_6_21 ;
+    schema:name "Article 6.21 part 7"@en .
+
+law:article_6_21_part_8 a schema:Legislation ;
+    schema:isPartOf law:article_6_21 ;
+    schema:name "Article 6.21 part 8"@en .
+
+law:article_6_21_2_part_2 a schema:Legislation ;
+    schema:isPartOf law:article_6_21_2 ;
+    schema:name "Article 6.21.2 part 2"@en .

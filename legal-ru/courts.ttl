@@ -1,0 +1,598 @@
+@prefix dataout: <https://dataout.org/ontology#> .
+@prefix court: <https://dataout.org/rdf/reference/ru_courts#> .
+@prefix schema: <http://schema.org/> .
+
+court:03RS0017 a dataout:Court ;
+	dataout:courtCode "03RS0017" ;
+	schema:url "http://sterlitamaksky.bkr.sudrf.ru" ;
+	schema:name "Стерлитамакский городской суд"@ru, "Sterlitamak City Court"@en .
+
+court:11RS0001 a dataout:Court ;
+	dataout:courtCode "11RS0001" ;
+	schema:url "http://syktsud.komi.sudrf.ru" ;
+	schema:name "Сыктывкарский городской суд"@ru, "Syktyvkar City Court"@en .
+
+court:12RS0003 a dataout:Court ;
+	dataout:courtCode "12RS0003" ;
+	schema:url "http://yoshkarolinsky.mari.sudrf.ru" ;
+	schema:name "Йошкар-Олинский городской суд"@ru, "Yoshkar-Ola City Court"@en .
+
+court:13MS0007 a dataout:Court ;
+	dataout:courtCode "13MS0007" ;
+	schema:url "http://mirsud.e-mordovia.ru/Home/Index/7" ;
+	schema:name "Судебный участок мирового судьи Ельниковского района"@ru, "Magistrate Court of the Yelnikovsky district"@en .
+
+court:16MS0006 a dataout:Court ;
+	dataout:courtCode "16MS0006" ;
+	schema:url "http://mirsud.tatar.ru/courtsinaction/46/1/" ;
+	schema:name "Судебный участок № 1 по Вахитовскому судебному району"@ru, "Magistrate Court No. 1 of the Vakhitovsky Judicial District"@en .
+
+court:16OS0000 a dataout:Court ;
+	dataout:courtCode "16OS0000" ;
+	schema:url "http://vs.tat.sudrf.ru" ;
+	schema:name "Верховный Суд Республики Татарстан"@ru, "Supreme Court of the Republic of Tatarstan"@en .
+
+court:16MS0026 a dataout:Court ;
+	dataout:courtCode "16MS0026" ;
+	schema:url "http://mirsud.tatar.ru/courtsinaction/49/1/" ;
+	schema:name "Судебный участок № 1 по Ново-Савиновскому судебному району г. Казани"@ru, "Magistrate Court No. 1 of the Novo-Savinovsky Judicial District of Kazan"@en .
+
+court:16RS0042 a dataout:Court ;
+	dataout:courtCode "16RS0042" ;
+	schema:url "http://naberezhno-chelninsky.tat.sudrf.ru" ;
+	schema:name "Набережночелнинский городской суд"@ru, "Naberezhnye Chelny City Court"@en .
+
+court:16RS0046 a dataout:Court ;
+	dataout:courtCode "16RS0046" ;
+	schema:url "http://vahitovsky.tat.sudrf.ru" ;
+	schema:name "Вахитовский районный суд"@ru, "Vakhitovsky District Court"@en .
+
+court:16MS0062 a dataout:Court ;
+	dataout:courtCode "16MS0062" ;
+	schema:url "http://mirsud.tatar.ru/courtsinaction/42/6/" ;
+	schema:name "Судебный участок № 6 по судебному району г. Набережные Челны"@ru, "Magistrate Court No. 6 in the Judicial District of Naberezhnye Chelny"@en .
+
+court:23KJ0004 a dataout:Court ;
+	dataout:courtCode "23KJ0004" ;
+	schema:url "http://4kas.sudrf.ru" ;
+	schema:name "Четвертый кассационный суд общей юрисдикции"@ru, "The Fourth Cassation Court of General Jurisdiction"@en .
+
+court:23MS0060 a dataout:Court ;
+	dataout:courtCode "23MS0060" ;
+	schema:url "http://msud60.krd.msudrf.ru" ;
+	schema:name "Судебный участок № 60 Центрального внутригородского округа"@ru, "Magistrate Court No. 60 of the Central Intracity District"@en .
+
+court:23MS0086 a dataout:Court ;
+	dataout:courtCode "23MS0086" ;
+	schema:url "http://msud86.krd.msudrf.ru" ;
+	schema:name "Судебный участок № 86"@ru, "Magistrate Court No. 86"@en .
+
+court:23MS0192 a dataout:Court ;
+	dataout:courtCode "23MS0192" ;
+	schema:url "http://msud192.krd.msudrf.ru" ;
+	schema:name "Судебный участок № 192 Приморско-Ахтарского района"@ru, "Magistrate Court No. 192 of the Primorsko-Akhtarsky District"@en .
+
+court:23MS0229 a dataout:Court ;
+	dataout:courtCode "23MS0229" ;
+	schema:url "http://msud229.krd.msudrf.ru" ;
+	schema:name "Судебный участок № 229"@ru, "Magistrate Court No. 229"@en .
+
+court:23MS0234 a dataout:Court ;
+	dataout:courtCode "23MS0234" ;
+	schema:url "http://msud234.krd.msudrf.ru" ;
+	schema:name "Судебный участок № 234 Карасунского внутригородского округа"@ru, "Magistrate Court No. 234 of the Karasunsky Intracity District"@en .
+
+court:23MS0048 a dataout:Court ;
+	dataout:courtCode "23MS0048" ;
+	schema:url "http://msud48.krd.msudrf.ru" ;
+	schema:name "Судебный участок № 48 Прикубанского внутригородского округа"@ru, "Magistrate Court No. 48 of the Prikubansky Intracity District"@en .
+
+court:23RS0002 a dataout:Court ;
+	dataout:courtCode "23RS0002" ;
+	schema:url "http://sochi-adler.krd.sudrf.ru" ;
+	schema:name "Адлерский районный суд"@ru, "Adler District Court"@en .
+
+court:23RS0018 a dataout:Court ;
+	dataout:courtCode "23RS0018" ;
+	schema:url "http://kalininsk.krd.sudrf.ru" ;
+	schema:name "Калининский районный суд"@ru, "Kalininsky District Court"@en .
+
+court:23RS0031 a dataout:Court ;
+	dataout:courtCode "23RS0031" ;
+	schema:url "http://krasnodar-leninsky.krd.sudrf.ru" ;
+	schema:name "Ленинский районный суд"@ru, "Leninsky District Court"@en .
+
+court:23RS0036 a dataout:Court ;
+	dataout:courtCode "23RS0036" ;
+	schema:url "http://krasnodar-oktybrsky.krd.sudrf.ru" ;
+	schema:name "Октябрьский районный суд"@ru, "Oktyabrsky District Court"@en .
+
+court:24RS0048 a dataout:Court ;
+	dataout:courtCode "24RS0048" ;
+	schema:url "http://sovet.krk.sudrf.ru" ;
+	schema:name "Советский районный суд"@ru, "Soviet District Court"@en .
+
+court:25KJ0009 a dataout:Court ;
+	dataout:courtCode "25KJ0009" ;
+	schema:url "http://9kas.sudrf.ru" ;
+	schema:name "Девятый кассационный суд общей юрисдикции"@ru, "The Ninth Cassation Court of General Jurisdiction"@en .
+
+court:25RS0002 a dataout:Court ;
+	dataout:courtCode "25RS0002" ;
+	schema:url "http://frunzensky.prm.sudrf.ru" ;
+	schema:name "Фрунзенский районный суд"@ru, "Frunzensky District Court"@en .
+
+court:27MS0026 a dataout:Court ;
+	dataout:courtCode "27MS0026" ;
+	schema:url "http://26.hbr.msudrf.ru" ;
+	schema:name "Судебный участок № 26 судебного района Центральный район"@ru, "Magistrate Court No. 26 of the Central District"@en .
+
+court:27RS0006 a dataout:Court ;
+	dataout:courtCode "27RS0006" ;
+	schema:url "http://habarovskyr.hbr.sudrf.ru" ;
+	schema:name "Хабаровский районный суд"@ru, "Khabarovsk District Court"@en .
+
+court:30RS0001 a dataout:Court ;
+	dataout:courtCode "30RS0001" ;
+	schema:url "http://kirovsky.ast.sudrf.ru" ;
+	schema:name "Кировский районный суд"@ru, "Kirovsky District Court"@en .
+
+court:34RS0008 a dataout:Court ;
+	dataout:courtCode "34RS0008" ;
+	schema:url "http://zent.vol.sudrf.ru" ;
+	schema:name "Центральный районный суд"@ru, "Central District Court"@en .
+
+court:34RS0019 a dataout:Court ;
+	dataout:courtCode "34RS0019" ;
+	schema:url "http://kam.vol.sudrf.ru" ;
+	schema:name "Камышинский городской суд"@ru, "Kamyshin City Court"@en .
+
+court:38RS0032 a dataout:Court ;
+	dataout:courtCode "38RS0032" ;
+	schema:url "http://kirovsky.irk.sudrf.ru" ;
+	schema:name "Кировский районный суд"@ru, "Kirovsky District Court"@en .
+
+court:38RS0035 a dataout:Court ;
+	dataout:courtCode "38RS0035" ;
+	schema:url "http://oktiabrsky.irk.sudrf.ru" ;
+	schema:name "Октябрьский районный суд"@ru, "Oktyabrsky District Court"@en .
+
+court:39MS0029 a dataout:Court ;
+	dataout:courtCode "39MS0029" ;
+	schema:url "http://zelms1.kln.msudrf.ru" ;
+	schema:name "1-й судебный участок Зеленоградского судебного района"@ru, "1st Magistrate Court of the Zelenograd judicial district"@en .
+
+court:41RS0002 a dataout:Court ;
+	dataout:courtCode "41RS0002" ;
+	schema:url "http://elizovsky.kam.sudrf.ru" ;
+	schema:name "Елизовский районный суд"@ru, "Yelizovsky District Court"@en .
+
+court:42RS0009 a dataout:Court ;
+	dataout:courtCode "42RS0009" ;
+	schema:url "http://centralniy.kmr.sudrf.ru" ;
+	schema:name "Центральный районный суд"@ru, "Central District Court"@en .
+
+court:42RS0040 a dataout:Court ;
+	dataout:courtCode "42RS0040" ;
+	schema:url "http://kemerovsky.kmr.sudrf.ru" ;
+	schema:name "Кемеровский районный суд"@ru, "Kemerovo District Court"@en .
+
+court:46OS0000 a dataout:Court ;
+	dataout:courtCode "46OS0000" ;
+	schema:url "http://oblsud.krs.sudrf.ru" ;
+	schema:name "Курский областной суд"@ru, "Kursk Regional Court"@en .
+
+court:51RS0003 a dataout:Court ;
+	dataout:courtCode "51RS0003" ;
+	schema:url "http://len.mrm.sudrf.ru" ;
+	schema:name "Ленинский районный суд"@ru, "Leninsky District Court"@en .
+
+court:52MS0032 a dataout:Court ;
+	dataout:courtCode "52MS0032" ;
+	schema:url "http://mosk4.nnov.msudrf.ru" ;
+	schema:name "Судебный участок № 4 Московского судебного района"@ru, "Magistrate Court No. 4 of the Moscow Judicial District"@en .
+
+court:52RS0005 a dataout:Court ;
+	dataout:courtCode "52RS0005" ;
+	schema:url "http://nizegorodsky.nnov.sudrf.ru" ;
+	schema:name "Нижегородский районный суд"@ru, "Nizhny Novgorod District Court"@en .
+
+court:52OS0000 a dataout:Court ;
+	dataout:courtCode "52OS0000" ;
+	schema:url "http://oblsud.nnov.sudrf.ru" ;
+	schema:name "Нижегородский областной суд"@ru, "Nizhny Novgorod Regional Court"@en .
+
+court:54RS0002 a dataout:Court ;
+	dataout:courtCode "54RS0002" ;
+	schema:url "http://zheleznodorozhny.nsk.sudrf.ru" ;
+	schema:name "Железнодорожный районный суд"@ru, "Zheleznodorozhny District Court"@en .
+
+court:54RS0010 a dataout:Court ;
+	dataout:courtCode "54RS0010" ;
+	schema:url "http://centralny.nsk.sudrf.ru" ;
+	schema:name "Центральный районный суд"@ru, "Central District Court"@en .
+
+court:55MS0082 a dataout:Court ;
+	dataout:courtCode "55MS0082" ;
+	schema:url "http://82.oms.msudrf.ru" ;
+	schema:name "Судебный участок № 82 в Советском судебном районе"@ru, "Magistrate Court No. 82 in the Soviet Judicial District"@en .
+
+court:55RS0001 a dataout:Court ;
+	dataout:courtCode "55RS0001" ;
+	schema:url "http://kirovcourt.oms.sudrf.ru" ;
+	schema:name "Кировский районный суд"@ru, "Kirovsky District Court"@en .
+
+court:56MS0070 a dataout:Court ;
+	dataout:courtCode "56MS0070" ;
+	schema:url "http://or3.kodms.ru" ;
+	schema:name "Судебный участок № 3 Оренбургского района"@ru, "Magistrate Court No. 3 of the Orenburg District"@en .
+
+court:58MS0073 a dataout:Court ;
+	dataout:courtCode "58MS0073" ;
+	schema:url "http://shemisheisky.pnz.msudrf.ru" ;
+	schema:name "Судебный участок в границах Шемышейского района"@ru, "The judicial district within the boundaries of the Shemysheisky district"@en .
+
+court:59RS0002 a dataout:Court ;
+	dataout:courtCode "59RS0002" ;
+	schema:url "http://industry.perm.sudrf.ru" ;
+	schema:name "Индустриальный районный суд"@ru, "Industrial District Court"@en .
+
+court:61MS0205 a dataout:Court ;
+	dataout:courtCode "61MS0205" ;
+	schema:url "http://taganrog12.ros.msudrf.ru" ;
+	schema:name "Судебный участок № 12 Таганрогского судебного района"@ru, "Magistrate Court No. 12 of the Taganrog Judicial District"@en .
+
+court:63MS0017 a dataout:Court ;
+	dataout:courtCode "63MS0017" ;
+	schema:url "http://17.sam.msudrf.ru" ;
+	schema:name "Судебный участок № 17 Кировского судебного района"@ru, "Magistrate Court No. 17 of the Kirovsky Judicial District"@en .
+
+court:63MS0024 a dataout:Court ;
+	dataout:courtCode "63MS0024" ;
+	schema:url "http://24.sam.msudrf.ru" ;
+	schema:name "Судебный участок № 24 Куйбышевского судебного района"@ru, "Magistrate Court No. 24 of the Kuibyshev Judicial District"@en .
+
+court:66MS0065 a dataout:Court ;
+	dataout:courtCode "66MS0065" ;
+	schema:url "http://2dzr.svd.msudrf.ru" ;
+	schema:name "Судебный участок № 2"@ru, "Magistrate Court No. 2"@en .
+
+court:66RS0007 a dataout:Court ;
+	dataout:courtCode "66RS0007" ;
+	schema:url "http://chkalovsky.svd.sudrf.ru" ;
+	schema:name "Чкаловский районный суд"@ru, "Chkalovsky District Court"@en .
+
+court:67OS0000 a dataout:Court ;
+	dataout:courtCode "67OS0000" ;
+	schema:url "http://oblsud.sml.sudrf.ru" ;
+	schema:name "Смоленский областной суд"@ru, "Smolensk Regional Court"@en .
+
+court:67RS0010 a dataout:Court ;
+	dataout:courtCode "67RS0010" ;
+	schema:url "http://demidov.sml.sudrf.ru" ;
+	schema:name "Демидовский районный суд"@ru, "Demidovsky District Court"@en .
+
+court:68MS0040 a dataout:Court ;
+	dataout:courtCode "68MS0040" ;
+	schema:url "http://1okt.tmb.msudrf.ru" ;
+	schema:name "Мировой судья судебного участка № 1 Октябрьского района"@ru, "Magistrate Court No. 1 of the Oktyabrsky District"@en .
+
+court:71RS0021 a dataout:Court ;
+	dataout:courtCode "71RS0021" ;
+	schema:url "http://uzlovsky.tula.sudrf.ru" ;
+	schema:name "Узловский районный суд"@ru, "Uzlovsky District Court"@en .
+
+court:71RS0023 a dataout:Court ;
+	dataout:courtCode "71RS0023" ;
+	schema:url "http://schekinsky.tula.sudrf.ru" ;
+	schema:name "Щекинский межрайонный суд Тульской области"@ru, "Shchekino Interdistrict Court of the Tula Region"@en .
+
+court:72RS0025 a dataout:Court ;
+	dataout:courtCode "72RS0025" ;
+	schema:url "http://centralny.tum.sudrf.ru" ;
+	schema:name "Центральный районный суд"@ru, "Central District Court"@en .
+
+court:75MS0034 a dataout:Court ;
+	dataout:courtCode "75MS0034" ;
+	schema:url "http://32.zbk.msudrf.ru" ;
+	schema:name "Судебный участок № 32 Читинского судебного района"@ru, "Magistrate Court No. 32 of the Chita Judicial District"@en .
+
+court:75RS0001 a dataout:Court ;
+	dataout:courtCode "75RS0001" ;
+	schema:url "http://mos-sud.ru/ms/21" ;
+	schema:name "Судебный участок № 21 района Нагатино-Садовники"@ru, "Magistrate Court No. 21 of the Nagatino-Sadovniki District"@en .
+
+court:77MS0021 a dataout:Court ;
+	dataout:courtCode "77MS0021" ;
+	schema:url "http://mos-sud.ru/ms/87" ;
+	schema:name "Судебный участок № 87 района Бибирево"@ru, "Magistrate Court No. 87 of the Bibirevo District"@en .
+
+court:77MS0087 a dataout:Court ;
+	dataout:courtCode "77MS0087" ;
+	schema:url "http://mos-sud.ru/ms/87" ;
+	schema:name "Судебный участок № 87 района Бибирево"@ru, "Magistrate Court No. 87 of the Bibirevo District"@en .
+
+court:77MS0092 a dataout:Court ;
+	dataout:courtCode "77MS0092" ;
+	schema:url "http://mos-sud.ru/ms/92" ;
+	schema:name "Судебный участок № 92 района Отрадное"@ru, "Magistrate Court No. 92 of the Otradnoye District"@en .
+
+court:77MS0098 a dataout:Court ;
+	dataout:courtCode "77MS0098" ;
+	schema:url "http://mos-sud.ru/ms/98" ;
+	schema:name "Судебный участок № 98 Бутырского района"@ru, "Magistrate Court No. 98 of the Butyrsky District"@en .
+
+court:77MS0101 a dataout:Court ;
+	dataout:courtCode "77MS0101" ;
+	schema:url "http://mos-sud.ru/ms/101" ;
+	schema:name "Судебный участок № 101 района Замоскворечье"@ru, "Magistrate Court No. 101 of the Zamoskvorechye District"@en .
+
+court:77MS0190 a dataout:Court ;
+	dataout:courtCode "77MS0190" ;
+	schema:url "http://mos-sud.ru/ms/190" ;
+	schema:name "Судебный участок № 190 района Фили-Давыдково"@ru, "Magistrate Court No. 190 of the Fili-Davydkovo District"@en .
+
+court:77MS0196 a dataout:Court ;
+	dataout:courtCode "77MS0196" ;
+	schema:url "http://mos-sud.ru/ms/196" ;
+	schema:name "Судебный участок № 196 Можайского района"@ru, "Magistrate Court No. 196 of the Mozhaisk District"@en .
+
+court:77MS0222 a dataout:Court ;
+	dataout:courtCode "77MS0222" ;
+	schema:url "http://mos-sud.ru/ms/222" ;
+	schema:name "Судебный участок № 222 Академического района"@ru, "Magistrate Court No. 222 of the Academichesky District"@en .
+
+court:77MS0271 a dataout:Court ;
+	dataout:courtCode "77MS0271" ;
+	schema:url "http://mos-sud.ru/ms/271" ;
+	schema:name "Судебный участок № 271 района Лефортово"@ru, "Magistrate Court No. 271 of the Lefortovo District"@en .
+
+court:77MS0311 a dataout:Court ;
+	dataout:courtCode "77MS0311" ;
+	schema:url "http://mos-sud.ru/ms/311" ;
+	schema:name "Судебный участок № 311 Останкинского района"@ru, "Magistrate Court No. 311 of the Ostankino District"@en .
+
+court:77MS0359 a dataout:Court ;
+	dataout:courtCode "77MS0359" ;
+	schema:url "http://mos-sud.ru/ms/359" ;
+	schema:name "Судебный участок № 359 Басманного района"@ru, "Magistrate Court No. 359 of the Basmanny District"@en .
+
+court:77MS0370 a dataout:Court ;
+	dataout:courtCode "77MS0370" ;
+	schema:url "http://mos-sud.ru/ms/370" ;
+	schema:name "Судебный участок № 370 Тверского района"@ru, "Magistrate Court No. 370 of the Tverskoy District"@en .
+
+court:77MS0374 a dataout:Court ;
+	dataout:courtCode "77MS0374" ;
+	schema:url "http://mos-sud.ru/ms/374" ;
+	schema:name "Судебный участок № 374 Таганского района"@ru, "Magistrate Court No. 374 of the Tagansky District"@en .
+
+court:77MS0379 a dataout:Court ;
+	dataout:courtCode "77MS0379" ;
+	schema:url "http://mos-sud.ru/ms/379" ;
+	schema:name "Судебный участок № 379 Пресненского района"@ru, "Magistrate Court No. 379 of the Presnensky District"@en .
+
+court:77MS0389 a dataout:Court ;
+	dataout:courtCode "77MS0389" ;
+	schema:url "http://mos-sud.ru/ms/389" ;
+	schema:name "Судебный участок № 389 района Тверской"@ru, "Magistrate Court No. 389 of the Tverskoy District"@en .
+
+court:77MS0411 a dataout:Court ;
+	dataout:courtCode "77MS0411" ;
+	schema:url "http://mos-sud.ru/ms/411" ;
+	schema:name "Судебный участок № 411 Мещанского района"@ru, "Magistrate Court No. 411 of the Meshchansky District"@en .
+
+court:77MS0454 a dataout:Court ;
+	dataout:courtCode "77MS0454" ;
+	schema:url "https://mos-sud.ru/451" ;
+	schema:name "Судебный участок № 451 Мещанского района"@ru, "Magistrate Court No. 451 of the Meshchansky District"@en .
+
+court:77MS0466 a dataout:Court ;
+	dataout:courtCode "77MS0466" ;
+	schema:url "https://mos-sud.ru/463" ;
+	schema:name "Судебный участок № 463 поселения Троицк"@ru, "Magistrate Court No. 463 of the Troitsk settlement"@en .
+
+court:77OS0000 a dataout:Court ;
+	dataout:courtCode "77OS0000" ;
+	schema:url "http://mos-gorsud.ru" ;
+	schema:name "Московский городской суд"@ru, "Moscow City Court"@en .
+
+court:77RS0001 a dataout:Court ;
+	dataout:courtCode "77RS0001" ;
+	schema:url "http://babushky.msk.sudrf.ru" ;
+	schema:name "Бабушкинский районный суд"@ru, "Babushkinsky District Court"@en .
+
+court:77RS0002 a dataout:Court ;
+	dataout:courtCode "77RS0002" ;
+	schema:url "http://basmanny.msk.sudrf.ru" ;
+	schema:name "Басманный районный суд"@ru, "Basmanny District Court"@en .
+
+court:77RS0003 a dataout:Court ;
+	dataout:courtCode "77RS0003" ;
+	schema:url "http://butyrsky.msk.sudrf.ru" ;
+	schema:name "Бутырский районный суд"@ru, "Butyrsky District Court"@en .
+
+court:77RS0004 a dataout:Court ;
+	dataout:courtCode "77RS0004" ;
+	schema:url "http://gagarinsky.msk.sudrf.ru" ;
+	schema:name "Гагаринский районный суд"@ru, "Gagarinsky District Court"@en .
+
+court:77RS0006 a dataout:Court ;
+	dataout:courtCode "77RS0006" ;
+	schema:url "http://dorogomilovsky.msk.sudrf.ru" ;
+	schema:name "Дорогомиловский районный суд"@ru, "Dorogomilovsky District Court"@en .
+
+court:77RS0008 a dataout:Court ;
+	dataout:courtCode "77RS0008" ;
+	schema:url "http://zelenogradsky.msk.sudrf.ru" ;
+	schema:name "Зеленоградский районный суд"@ru, "Zelenograd District Court"@en .
+
+court:77RS0013 a dataout:Court ;
+	dataout:courtCode "77RS0013" ;
+	schema:url "http://kuncevsky.msk.sudrf.ru" ;
+	schema:name "Кунцевский районный суд"@ru, "Kuntsevo District Court"@en .
+
+court:77RS0016 a dataout:Court ;
+	dataout:courtCode "77RS0016" ;
+	schema:url "http://meshansky.msk.sudrf.ru" ;
+	schema:name "Мещанский районный суд"@ru, "Meshchansky District Court"@en .
+
+court:77RS0017 a dataout:Court ;
+	dataout:courtCode "77RS0017" ;
+	schema:url "http://nagatinsky.msk.sudrf.ru" ;
+	schema:name "Нагатинский районный суд"@ru, "Nagatinsky District Court"@en .
+
+court:77RS0018 a dataout:Court ;
+	dataout:courtCode "77RS0018" ;
+	schema:url "http://nikulinsky.msk.sudrf.ru" ;
+	schema:name "Никулинский районный суд"@ru, "Nikulinsky District Court"@en .
+
+court:77RS0019 a dataout:Court ;
+	dataout:courtCode "77RS0019" ;
+	schema:url "http://ostankinsky.msk.sudrf.ru" ;
+	schema:name "Останкинский районный суд"@ru, "Ostankino District Court"@en .
+
+court:77RS0021 a dataout:Court ;
+	dataout:courtCode "77RS0021" ;
+	schema:url "http://presnensky.msk.sudrf.ru" ;
+	schema:name "Пресненский районный суд"@ru, "Presnensky District Court"@en .
+
+court:77RS0023 a dataout:Court ;
+	dataout:courtCode "77RS0023" ;
+	schema:url "http://savelovsky.msk.sudrf.ru" ;
+	schema:name "Савеловский районный суд"@ru, "Savelovsky District Court"@en .
+
+court:77RS0024 a dataout:Court ;
+	dataout:courtCode "77RS0024" ;
+	schema:url "http://simonovsky.msk.sudrf.ru" ;
+	schema:name "Симоновский районный суд"@ru, "Simonovsky District Court"@en .
+
+court:77RS0026 a dataout:Court ;
+	dataout:courtCode "77RS0026" ;
+	schema:url "http://tagansky.msk.sudrf.ru" ;
+	schema:name "Таганский районный суд"@ru, "Tagansky District Court"@en .
+
+court:77RS0027 a dataout:Court ;
+	dataout:courtCode "77RS0027" ;
+	schema:url "http://tverskoy.msk.sudrf.ru" ;
+	schema:name "Тверской районный суд"@ru, "Tverskoy District Court"@en .
+
+court:77RS0028 a dataout:Court ;
+	dataout:courtCode "77RS0028" ;
+	schema:url "http://timiryazevsky.msk.sudrf.ru" ;
+	schema:name "Тимирязевский районный суд"@ru, "Timiryazevsky District Court"@en .
+
+court:77RS0031 a dataout:Court ;
+	dataout:courtCode "77RS0031" ;
+	schema:url "http://horoshevsky.msk.sudrf.ru" ;
+	schema:name "Хорошевский районный суд"@ru, "Khoroshevsky District Court"@en .
+
+court:77RS0032 a dataout:Court ;
+	dataout:courtCode "77RS0032" ;
+	schema:url "http://cheremushinsky.msk.sudrf.ru" ;
+	schema:name "Черемушкинский районный суд"@ru, "Cheryomushkinsky District Court"@en .
+
+court:77RS0007 a dataout:Court ;
+	dataout:courtCode "77RS0007" ;
+	schema:url "http://zamoskvoretsky.msk.sudrf.ru" ;
+	schema:name "Замоскворецкий районный суд"@ru, "Zamoskvoretsky District Court"@en .
+
+court:78MS0059 a dataout:Court ;
+	dataout:courtCode "78MS0059" ;
+	schema:url "https://mirsud.spb.ru/court-sites/59" ;
+	schema:name "Судебный участок № 59 Московского судебного района"@ru, "Magistrate Court No. 59 of the Moscow Judicial District"@en .
+
+court:78MS0061 a dataout:Court ;
+	dataout:courtCode "78MS0061" ;
+	schema:url "https://mirsud.spb.ru/court-sites/61" ;
+	schema:name "Судебный участок № 61 Кировского судебного района"@ru, "Magistrate Court No. 61 of the Kirovsky Judicial District"@en .
+
+court:78MS0175 a dataout:Court ;
+	dataout:courtCode "78MS0175" ;
+	schema:url "https://mirsud.spb.ru/court-sites/150" ;
+	schema:name "Судебный участок № 150 Пушкинского судебного района"@ru, "Magistrate Court No. 150 of the Pushkinsky Judicial District"@en .
+
+court:78MS0149 a dataout:Court ;
+	dataout:courtCode "78MS0149" ;
+	schema:url "https://mirsud.spb.ru/court-sites/152" ;
+	schema:name "Судебный участок № 152 Петроградского судебного района"@ru, "Magistrate Court No. 152 of the Petrogradsky Judicial District"@en .
+
+court:78MS0161 a dataout:Court ;
+	dataout:courtCode "78MS0161" ;
+	schema:url "https://mirsud.spb.ru/court-sites/162" ;
+	schema:name "Судебный участок № 162 Приморского судебного района"@ru, "Magistrate Court No. 162 of the Primorsky Judicial District"@en .
+
+court:78MS0198 a dataout:Court ;
+	dataout:courtCode "78MS0198" ;
+	schema:url "https://mirsud.spb.ru/court-sites/198" ;
+	schema:name "Судебный участок № 198 Фрунзенского судебного района"@ru, "Magistrate Court No. 198 of the Frunzensky Judicial District"@en .
+
+court:78OS0000 a dataout:Court ;
+	dataout:courtCode "78OS0000" ;
+	schema:url "http://sankt-peterburgsky.spb.sudrf.ru" ;
+	schema:name "Санкт-Петербургский городской суд"@ru, "St. Petersburg City Court"@en .
+
+court:78RS0002 a dataout:Court ;
+	dataout:courtCode "78RS0002" ;
+	schema:url "http://vbr.spb.sudrf.ru" ;
+	schema:name "Выборгский районный суд"@ru, "Vyborg District Court"@en .
+
+court:78RS0011 a dataout:Court ;
+	dataout:courtCode "78RS0011" ;
+	schema:url "http://kbs.spb.sudrf.ru" ;
+	schema:name "Куйбышевский районный суд"@ru, "Kuibyshevsky District Court"@en .
+
+court:78RS0012 a dataout:Court ;
+	dataout:courtCode "78RS0012" ;
+	schema:url "http://lnn.spb.sudrf.ru" ;
+	schema:name "Ленинский районный суд"@ru, "Leninsky District Court"@en .
+
+court:78RS0014 a dataout:Court ;
+	dataout:courtCode "78RS0014" ;
+	schema:url "http://msk.spb.sudrf.ru" ;
+	schema:name "Московский районный суд"@ru, "Moscow District Court"@en .
+
+court:78RS0019 a dataout:Court ;
+	dataout:courtCode "78RS0019" ;
+	schema:url "http://primorsky.spb.sudrf.ru" ;
+	schema:name "Приморский районный суд"@ru, "Primorsky District Court"@en .
+
+court:78RS0022 a dataout:Court ;
+	dataout:courtCode "78RS0022" ;
+	schema:url "http://smolninsky.spb.sudrf.ru" ;
+	schema:name "Смольнинский районный суд"@ru, "Smolninsky District Court"@en .
+
+court:86MS0071 a dataout:Court ;
+	dataout:courtCode "86MS0071" ;
+	schema:url "http://mirsud86.ru/ms/691" ;
+	schema:name "Судебный участок № 2 Ханты-Мансийского судебного района"@ru, "Magistrate Court No. 2 of the Khanty-Mansiysk Judicial Region"@en .
+
+court:89RS0006 a dataout:Court ;
+	dataout:courtCode "89RS0006" ;
+	schema:url "http://muravlenkovsky.ynao.sudrf.ru" ;
+	schema:name "Муравленковский городской суд"@ru, "Muravlenkovsky City Court"@en .
+
+court:91MS0018 a dataout:Court ;
+	dataout:courtCode "91MS0018" ;
+	schema:url "http://mirsud82.rk.gov.ru" ;
+	schema:name "Судебный участок № 18 Центрального судебного района"@ru, "Magistrate Court No. 18 of the Central Judicial District"@en .
+
+court:91MS0048 a dataout:Court ;
+	dataout:courtCode "91MS0048" ;
+	schema:url "http://mirsud82.rk.gov.ru" ;
+	schema:name "Судебный участок № 48 Керченского судебного района"@ru, "Magistrate Court No. 48 of the Kerch Judicial District"@en .
+
+court:91RS0003 a dataout:Court ;
+	dataout:courtCode "91RS0003" ;
+	schema:url "http://centr-simph.krm.sudrf.ru" ;
+	schema:name "Центральный районный суд"@ru, "Central District Court"@en .
+
+court:91RS0024 a dataout:Court ;
+	dataout:courtCode "91RS0024" ;
+	schema:url "http://yalta.krm.sudrf.ru" ;
+	schema:name "Ялтинский городской суд"@ru, "Yalta City Court"@en .
+
+court:92MS0016 a dataout:Court ;
+	dataout:courtCode "92MS0016" ;
+	schema:url "http://mirsud.sev.gov.ru/courtsinaction/lenin/16/" ;
+	schema:name "Судебный участок № 16 Ленинского судебного района"@ru, "Magistrate Court No. 16 of the Leninsky Judicial District"@en .
