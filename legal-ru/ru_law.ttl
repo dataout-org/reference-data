@@ -11,11 +11,11 @@ law:CAORF a schema:Legislation ;
 
 law:article_6_21 a schema:Legislation ;
     schema:isPartOf law:CAORF ;
-    schema:name "Article 6.21"@en .
+    schema:name "Article 6.21"@en, "Статья 6.21"@ru .
 
 law:article_6_21_2 a schema:Legislation ;
     schema:isPartOf law:CAORF ;
-    schema:name "Article 6.21.2"@en .
+    schema:name "Article 6.21.2"@en, "Статья 6.21.2"@ru .
 
 law:article_6_21_part_1 a schema:Legislation ;
     schema:isPartOf law:article_6_21 ;
