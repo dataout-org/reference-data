@@ -19,7 +19,7 @@ law:article_6_21_2 a schema:Legislation ;
 
 law:article_6_21_part_1 a schema:Legislation ;
     schema:isPartOf law:article_6_21 ;
-    schema:name "Article 6.21 part 1"@en .
+    schema:name "Article 6.21 part 1"@en, , "Статья 6.21 ч. 1"@ru .
 
 law:article_6_21_part_2 a schema:Legislation ;
     schema:isPartOf law:article_6_21 ;
